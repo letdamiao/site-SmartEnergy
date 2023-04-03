@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+header{
+    background-color: #F0CD129C;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    border-radius: 10rem;
+}
+
+.header div{
+    display: flex;
+    justify-content: center;
+}
+
+.header h1{
+    color: white;
+}
+
+#logo{
+    text-decoration: none;
+}
+
+#logo:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header span{
+    color: #0d559c;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 20px;
+    background-color: #0d559c;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+
+    background-color: #294297;
+}
+
+.form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+
+    padding: 20px;
+    background: #D9D9D9;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 34px 0;
+}
+
+.form input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+.resultados{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+
+    width: 641px;
+    margin: 34px 0;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.resultados h1{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#resultados{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+#resultados {
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}   
+
+button{
+    border: none;
+    background-color: #F0CD129C;
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    cursor: pointer;
+}

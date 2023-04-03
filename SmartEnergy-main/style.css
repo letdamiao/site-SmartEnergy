@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+header{
+    background-color: #F0CD129C;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    border-radius: 10rem;
+}
+
+.header div{
+    display: flex;
+    justify-content: center;
+}
+
+.header h1{
+    color: white;
+}
+
+#logo{
+    text-decoration: none;
+}
+
+#logo:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header span{
+    color: #0d559c;
+}
+
+.login-1 {
+    border: none;
+    background-color: #0d559c;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 27px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cadastre-se1{
+    border: none;
+    background-color: white;
+    color: #0d559c;
+    border-radius: 10px;
+    padding: 7px 27px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 20px;
+    background-color: #0d559c;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 20px;
+    background-color: #0d559c;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+}   
+
+.box-cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastre-se2{
+    border: none;
+    background-color: #D9D9D9;
+    color: #0d559c;
+    border-radius: 10px;
+    padding: 7px 27px;
+    cursor: pointer;
+}
+
+.text-main{
+    background-image: url(./img/WhatsApp\ Image\ 2023-03-31\ at\ 08.39.18.jpeg);
+    background-size: cover;
+    width: 1980px;
+    height: 515px;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#cor{
+    color: #F0CD12DE;
+}
+
+.text-main p{
+    width: 280px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #294297;
+    
+}
+
+.text-main a{
+    text-decoration: none;
+
+    background: #D9D9D9;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 25px 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #294297;
+}
+
+.text-main a:visited{
+    text-decoration: none;
+
+    background: #D9D9D9;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 25px 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #294297;
+}
+
+.conheca{
+    margin-top: 53px;
+    margin-left: 42px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.conheca h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #294297;
+    
+}
+
+.conheca p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #294297;
+
+    width: 693px;
+    height: 231px;
+    margin-top: 64px;
+    margin-right: 132px ;
+}

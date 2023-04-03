@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ferramentas.css">
+    <title>FERRAMENTAS</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../img/Logo SmartEnergy.png" width="100px" height="100px" alt="">
+        <div>
+           <a href="./sobre.html" id="logo"> <h1>Smart<span>Energy</span</h1> </a>
+        </div>
+
+        <div>
+            
+        </div>      
+    </header>
+    
+    <nav class="nav">
+        <a class="nav-item" href="./sac.html">SAC</a>
+        <a class="nav-item" href="./sobre.html">HOME</a>
+        <a class="nav-item" href="./ferramentas.html">FERRAMENTAS</a>
+    </nav>
+
+    <section>
+        <div class="form">
+            <div class="digite-seu-eletronico">
+                <h1>DIGITE SEU ELETRÔNICO</h1>
+                <input type="text" placeholder="" id="name">
+            </div>
+            <div class="potencia">
+                <h1>POTÊNCIA EM WATTS</h1>
+                <input type="number" placeholder="" id="pot">
+            </div>
+            <div class="horas-de-uso">
+                <h1>HORAS DE USO</h1>
+                <input type="number" placeholder="" id="hour">
+            </div>
+
+            <button onclick="adicionar()">Adicionar</button>    
+        </div> 
+        <div class="resultados">
+            <h1>RESULTADO</h1>
+            <table id="resultados">
+        
+                <tfoot>
+                    <tr>
+                        <td id="infoTotal" colspan="2"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>
